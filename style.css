@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Gemunu+Libre:wght@200;400&display=swap');
+body {
+    background-color: #ddd;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.radio {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.radio-items {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #ddd;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 3rem 0 1rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #f1f1f1;
+    border: 2px solid #000000;
+}
+
+p {
+    margin-top: -20px;
+}
+
+@media screen and (max-width:800px) {
+    .radio-items {
+        margin: 0 .5rem;
+    }
+}
